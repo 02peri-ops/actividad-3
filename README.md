@@ -514,37 +514,3 @@ curl -X DELETE http://localhost:3000/tareas/<id> \
 6. **Una sesion por usuario**: No hay limite de sesiones simultaneas
 7. **Validacion basica**: Validacion minima de datos de entrada
 8. **Sin rate limiting**: Vulnerable a ataques de fuerza bruta
-
-## Mejoras Futuras Sugeridas
-
-### Alta Prioridad
-
-- [ ] Usar base de datos real (MongoDB, PostgreSQL)
-- [ ] Implementar variables de entorno con dotenv
-- [ ] Agregar expiration a tokens JWT
-- [ ] Implementar refresh tokens
-- [ ] Agregar rate limiting
-
-### Media Prioridad
-
-- [ ] Middleware de validacion de datos con express-validator
-- [ ] Paginacion de resultados
-- [ ] Busqueda y filtrado de tareas
-- [ ] Documentacion con Swagger/OpenAPI
-- [ ] Tests unitarios con Jest
-
-### Baja Prioridad
-
-- [ ] Soft delete para tareas (recuperables)
-- [ ] Categorias y etiquetas para tareas
-- [ ] Fechas de vencimiento
-- [ ] Estados de tarea (pendiente, en progreso, completada)
-- [ ] Notificaciones por email
-
-## Licencia
-
-Este proyecto es de uso libre para fines educativos y de desarrollo.
-
----
-
-**Desarrollado con Node.js y Express**
